@@ -1,0 +1,81 @@
+/* style.css */
+
+/* 全頁背景 */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA1NzZ8MHwxfHNlYXJjaHwxfHxjYXQlMjBkb2d8ZW58MHx8fHwxNjY3MjgzOTU1&ixlib=rb-4.0.3&q=80&w=1080') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* 中心容器 */
+.container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* 標題 */
+h1 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* 選項按鈕 */
+label {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* 輸入行 */
+.input-row {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-row input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* 計算按鈕 */
+button#calcBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffb347;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#calcBtn:hover {
+  background-color: #ffcc70;
+}
+
+/* 結果文字 */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 像素風圖案 */
+.pix-art {
+  margin-top: 20px;
+}
+
+.pet-pixel {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>貓狗歲數計算機</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>貓狗歲數計算機</h1>
+
+    <label>
+      <input type="radio" name="pet" value="dog" checked> 狗  
+    </label>
+    <label>
+      <input type="radio" name="pet" value="cat"> 貓  
+    </label>
+
+    <div class="input-row">
+      <span>狗狗或貓貓的出生日期：</span>
+      <input type="text" id="birthdate" placeholder="YYYY/MM/DD">
+    </div>
+
+    <button id="calcBtn">開始計算</button>
+
+    <div id="result"></div>
+
+    <div class="pix-art">
+      <img class="pet-pixel" id="petPixel" src="" alt="">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
